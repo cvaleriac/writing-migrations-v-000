@@ -11,9 +11,9 @@ SQL
 
 ActiveRecord::Base.connection.execute(sql)
 
-class CreateStudents < ActiveRecord::Migration[5.1]
+class CreateStudents < ActiveRecord::Migration
 def change
-  create_table :students do |t|
+  create_table :costumes do |t|
    t.string :name
 end
 end
